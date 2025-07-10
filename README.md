@@ -1,38 +1,30 @@
-# sv
+# SvelteKit + Tailwind Todo App 💡
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+Интерактивное приложение "Список дел", разработанное с помощью **SvelteKit**, **Tailwind CSS** и **IndexedDB**, с активной поддержкой от **ChatGPT** (ИИ).
 
-## Creating a project
+---
 
-If you're seeing this, you've probably already done this step. Congrats!
+## ⚙️ Основные функции
 
-```bash
-# create a new project in the current directory
-npx sv create
+- ✅ Добавление задач
+- ☑️ Переключение состояния задачи (выполнено / не выполнено)
+- ❌ Удаление завершённых задач
+- 🔍 Фильтрация: все / активные / выполненные
+- 💾 Сохранение данных в браузере через IndexedDB
 
-# create a new project in my-app
-npx sv create my-app
-```
+---
 
-## Developing
+## 🧠 Как ИИ (ChatGPT) помог
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+- Помог перенести дизайн из обычного CSS в Tailwind CSS
+- Подсказал правильный синтаксис Svelte для динамических классов
+- Сгенерировал структуру проекта и компонент
+- Предложил адаптировать цвета, шрифты и размеры в Tailwind
+- Объяснил, как публиковать проект в Git и GitHub
 
-```bash
-npm run dev
+---
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+## 🚀 Как запустить проект
 
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+1. открить сылку :https://to-d-kappa.vercel.app/
+   
